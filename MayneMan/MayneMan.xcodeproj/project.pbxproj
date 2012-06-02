@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2B3D2D8157ACCC60033A651 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B3D2D7157ACCC60033A651 /* UIKit.framework */; };
+		B2B3D2DA157ACCC60033A651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B3D2D9157ACCC60033A651 /* Foundation.framework */; };
+		B2B3D2DC157ACCC60033A651 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B3D2DB157ACCC60033A651 /* CoreGraphics.framework */; };
+		B2B3D2E2157ACCC60033A651 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2B3D2E0157ACCC60033A651 /* InfoPlist.strings */; };
+		B2B3D2E4157ACCC60033A651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B3D2E3157ACCC60033A651 /* main.m */; };
+		B2B3D2E8157ACCC60033A651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B3D2E7157ACCC60033A651 /* AppDelegate.m */; };
+		B2B3D2EB157ACCC60033A651 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B3D2E9157ACCC60033A651 /* MainStoryboard_iPhone.storyboard */; };
+		B2B3D2EE157ACCC60033A651 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B3D2EC157ACCC60033A651 /* MainStoryboard_iPad.storyboard */; };
+		B2B3D2F1157ACCC60033A651 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B3D2F0157ACCC60033A651 /* FirstViewController.m */; };
+		B2B3D2F3157ACCC60033A651 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B3D2F2157ACCC60033A651 /* first.png */; };
+		B2B3D2F5157ACCC60033A651 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B3D2F4157ACCC60033A651 /* first@2x.png */; };
+		B2B3D2F8157ACCC60033A651 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B3D2F7157ACCC60033A651 /* SecondViewController.m */; };
+		B2B3D2FA157ACCC60033A651 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B3D2F9157ACCC60033A651 /* second.png */; };
+		B2B3D2FC157ACCC60033A651 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B3D2FB157ACCC60033A651 /* second@2x.png */; };
+		B2B3D304157ACCC70033A651 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B3D303157ACCC70033A651 /* SenTestingKit.framework */; };
+		B2B3D305157ACCC70033A651 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B3D2D7157ACCC60033A651 /* UIKit.framework */; };
+		B2B3D306157ACCC70033A651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B3D2D9157ACCC60033A651 /* Foundation.framework */; };
+		B2B3D30E157ACCC70033A651 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2B3D30C157ACCC70033A651 /* InfoPlist.strings */; };
+		B2B3D311157ACCC70033A651 /* MayneManTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B3D310157ACCC70033A651 /* MayneManTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2B3D307157ACCC70033A651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2B3D2CA157ACCC60033A651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2B3D2D2157ACCC60033A651;
+			remoteInfo = MayneMan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2B3D2D3157ACCC60033A651 /* MayneMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MayneMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B3D2D7157ACCC60033A651 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2B3D2D9157ACCC60033A651 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2B3D2DB157ACCC60033A651 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2B3D2DF157ACCC60033A651 /* MayneMan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MayneMan-Info.plist"; sourceTree = "<group>"; };
+		B2B3D2E1157ACCC60033A651 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2B3D2E3157ACCC60033A651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2B3D2E5157ACCC60033A651 /* MayneMan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MayneMan-Prefix.pch"; sourceTree = "<group>"; };
+		B2B3D2E6157ACCC60033A651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2B3D2E7157ACCC60033A651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2B3D2EA157ACCC60033A651 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2B3D2ED157ACCC60033A651 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2B3D2EF157ACCC60033A651 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B2B3D2F0157ACCC60033A651 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B2B3D2F2157ACCC60033A651 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B2B3D2F4157ACCC60033A651 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B2B3D2F6157ACCC60033A651 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B2B3D2F7157ACCC60033A651 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B2B3D2F9157ACCC60033A651 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B2B3D2FB157ACCC60033A651 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B2B3D302157ACCC70033A651 /* MayneManTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MayneManTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B3D303157ACCC70033A651 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2B3D30B157ACCC70033A651 /* MayneManTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MayneManTests-Info.plist"; sourceTree = "<group>"; };
+		B2B3D30D157ACCC70033A651 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2B3D30F157ACCC70033A651 /* MayneManTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MayneManTests.h; sourceTree = "<group>"; };
+		B2B3D310157ACCC70033A651 /* MayneManTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MayneManTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2B3D2D0157ACCC60033A651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B3D2D8157ACCC60033A651 /* UIKit.framework in Frameworks */,
+				B2B3D2DA157ACCC60033A651 /* Foundation.framework in Frameworks */,
+				B2B3D2DC157ACCC60033A651 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B3D2FE157ACCC70033A651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B3D304157ACCC70033A651 /* SenTestingKit.framework in Frameworks */,
+				B2B3D305157ACCC70033A651 /* UIKit.framework in Frameworks */,
+				B2B3D306157ACCC70033A651 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2B3D2C8157ACCC60033A651 = {
+			isa = PBXGroup;
+			children = (
+				B2B3D2DD157ACCC60033A651 /* MayneMan */,
+				B2B3D309157ACCC70033A651 /* MayneManTests */,
+				B2B3D2D6157ACCC60033A651 /* Frameworks */,
+				B2B3D2D4157ACCC60033A651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2B3D2D4157ACCC60033A651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3D2D3157ACCC60033A651 /* MayneMan.app */,
+				B2B3D302157ACCC70033A651 /* MayneManTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2B3D2D6157ACCC60033A651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3D2D7157ACCC60033A651 /* UIKit.framework */,
+				B2B3D2D9157ACCC60033A651 /* Foundation.framework */,
+				B2B3D2DB157ACCC60033A651 /* CoreGraphics.framework */,
+				B2B3D303157ACCC70033A651 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2B3D2DD157ACCC60033A651 /* MayneMan */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3D2E6157ACCC60033A651 /* AppDelegate.h */,
+				B2B3D2E7157ACCC60033A651 /* AppDelegate.m */,
+				B2B3D2E9157ACCC60033A651 /* MainStoryboard_iPhone.storyboard */,
+				B2B3D2EC157ACCC60033A651 /* MainStoryboard_iPad.storyboard */,
+				B2B3D2EF157ACCC60033A651 /* FirstViewController.h */,
+				B2B3D2F0157ACCC60033A651 /* FirstViewController.m */,
+				B2B3D2F2157ACCC60033A651 /* first.png */,
+				B2B3D2F4157ACCC60033A651 /* first@2x.png */,
+				B2B3D2F6157ACCC60033A651 /* SecondViewController.h */,
+				B2B3D2F7157ACCC60033A651 /* SecondViewController.m */,
+				B2B3D2F9157ACCC60033A651 /* second.png */,
+				B2B3D2FB157ACCC60033A651 /* second@2x.png */,
+				B2B3D2DE157ACCC60033A651 /* Supporting Files */,
+			);
+			path = MayneMan;
+			sourceTree = "<group>";
+		};
+		B2B3D2DE157ACCC60033A651 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3D2DF157ACCC60033A651 /* MayneMan-Info.plist */,
+				B2B3D2E0157ACCC60033A651 /* InfoPlist.strings */,
+				B2B3D2E3157ACCC60033A651 /* main.m */,
+				B2B3D2E5157ACCC60033A651 /* MayneMan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2B3D309157ACCC70033A651 /* MayneManTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3D30F157ACCC70033A651 /* MayneManTests.h */,
+				B2B3D310157ACCC70033A651 /* MayneManTests.m */,
+				B2B3D30A157ACCC70033A651 /* Supporting Files */,
+			);
+			path = MayneManTests;
+			sourceTree = "<group>";
+		};
+		B2B3D30A157ACCC70033A651 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3D30B157ACCC70033A651 /* MayneManTests-Info.plist */,
+				B2B3D30C157ACCC70033A651 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2B3D2D2157ACCC60033A651 /* MayneMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B3D314157ACCC70033A651 /* Build configuration list for PBXNativeTarget "MayneMan" */;
+			buildPhases = (
+				B2B3D2CF157ACCC60033A651 /* Sources */,
+				B2B3D2D0157ACCC60033A651 /* Frameworks */,
+				B2B3D2D1157ACCC60033A651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MayneMan;
+			productName = MayneMan;
+			productReference = B2B3D2D3157ACCC60033A651 /* MayneMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2B3D301157ACCC70033A651 /* MayneManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B3D317157ACCC70033A651 /* Build configuration list for PBXNativeTarget "MayneManTests" */;
+			buildPhases = (
+				B2B3D2FD157ACCC70033A651 /* Sources */,
+				B2B3D2FE157ACCC70033A651 /* Frameworks */,
+				B2B3D2FF157ACCC70033A651 /* Resources */,
+				B2B3D300157ACCC70033A651 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2B3D308157ACCC70033A651 /* PBXTargetDependency */,
+			);
+			name = MayneManTests;
+			productName = MayneManTests;
+			productReference = B2B3D302157ACCC70033A651 /* MayneManTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2B3D2CA157ACCC60033A651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B2B3D2CD157ACCC60033A651 /* Build configuration list for PBXProject "MayneMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2B3D2C8157ACCC60033A651;
+			productRefGroup = B2B3D2D4157ACCC60033A651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2B3D2D2157ACCC60033A651 /* MayneMan */,
+				B2B3D301157ACCC70033A651 /* MayneManTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2B3D2D1157ACCC60033A651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B3D2E2157ACCC60033A651 /* InfoPlist.strings in Resources */,
+				B2B3D2EB157ACCC60033A651 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2B3D2EE157ACCC60033A651 /* MainStoryboard_iPad.storyboard in Resources */,
+				B2B3D2F3157ACCC60033A651 /* first.png in Resources */,
+				B2B3D2F5157ACCC60033A651 /* first@2x.png in Resources */,
+				B2B3D2FA157ACCC60033A651 /* second.png in Resources */,
+				B2B3D2FC157ACCC60033A651 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B3D2FF157ACCC70033A651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B3D30E157ACCC70033A651 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2B3D300157ACCC70033A651 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2B3D2CF157ACCC60033A651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B3D2E4157ACCC60033A651 /* main.m in Sources */,
+				B2B3D2E8157ACCC60033A651 /* AppDelegate.m in Sources */,
+				B2B3D2F1157ACCC60033A651 /* FirstViewController.m in Sources */,
+				B2B3D2F8157ACCC60033A651 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B3D2FD157ACCC70033A651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B3D311157ACCC70033A651 /* MayneManTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2B3D308157ACCC70033A651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2B3D2D2157ACCC60033A651 /* MayneMan */;
+			targetProxy = B2B3D307157ACCC70033A651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2B3D2E0157ACCC60033A651 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B3D2E1157ACCC60033A651 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2B3D2E9157ACCC60033A651 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B3D2EA157ACCC60033A651 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2B3D2EC157ACCC60033A651 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B3D2ED157ACCC60033A651 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B2B3D30C157ACCC70033A651 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B3D30D157ACCC70033A651 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2B3D312157ACCC70033A651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2B3D313157ACCC70033A651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2B3D315157ACCC70033A651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MayneMan/MayneMan-Prefix.pch";
+				INFOPLIST_FILE = "MayneMan/MayneMan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2B3D316157ACCC70033A651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MayneMan/MayneMan-Prefix.pch";
+				INFOPLIST_FILE = "MayneMan/MayneMan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2B3D318157ACCC70033A651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MayneMan.app/MayneMan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MayneMan/MayneMan-Prefix.pch";
+				INFOPLIST_FILE = "MayneManTests/MayneManTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2B3D319157ACCC70033A651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MayneMan.app/MayneMan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MayneMan/MayneMan-Prefix.pch";
+				INFOPLIST_FILE = "MayneManTests/MayneManTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2B3D2CD157ACCC60033A651 /* Build configuration list for PBXProject "MayneMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B3D312157ACCC70033A651 /* Debug */,
+				B2B3D313157ACCC70033A651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2B3D314157ACCC70033A651 /* Build configuration list for PBXNativeTarget "MayneMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B3D315157ACCC70033A651 /* Debug */,
+				B2B3D316157ACCC70033A651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2B3D317157ACCC70033A651 /* Build configuration list for PBXNativeTarget "MayneManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B3D318157ACCC70033A651 /* Debug */,
+				B2B3D319157ACCC70033A651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2B3D2CA157ACCC60033A651 /* Project object */;
+}
